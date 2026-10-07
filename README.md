@@ -38,6 +38,7 @@ mesmo, a cara é outra.
 | Endereço Jd Paraguaçu, CEP, faixa R$ 20–40 | Google Maps |
 | Endereço São Mateus e @palpiteirosbigburguersm | Google Maps e grid do Instagram |
 | "O melhor do artesanal" | Texto de reel da própria casa (jul/2026) |
+| Foto do hero e fachada de São Mateus (placa "1098") | Fotos públicas do Google Maps |
 | As três frases de cliente | Destaques de avaliação do Google, unidade São Mateus (5,0 com 9 notas) |
 
 ## Conferir com a operação antes de publicar
@@ -67,9 +68,10 @@ mesmo, a cara é outra.
 - **Logo em vetor.** O maior selo público tem 256 px. No header (44 px) fica
   nítido; no hero (132 px) aguenta. Com o SVG ou PNG grande da operação, trocar
   `logo-selo.png`.
-- **Fotos em alta.** Produtos estão em 512 px e posts em 640 px de altura, por
-  isso o hero é um mural de fotos coladas em vez de foto de fundo esticada. Com
-  os originais dá pra fazer um hero em tela cheia como o da Old Man.
+- **Fotos em alta.** Produtos estão em 512 px e posts em 640 px. O hero usa
+  `hero-burger.jpg` (1284 px, do Google Maps da casa), que no desktop ocupa só
+  a metade direita para não borrar. Com os originais da produção dá pra levar
+  a foto pra tela inteira.
 - **Vídeo.** A Old Man tem o reels do burger do mês rodando. Aqui não deu: o
   Instagram exige login para os vídeos. Se vier um reel em MP4, o bloco `.reel`
   e o `servidor.py` da Old Man servem do jeito que estão.
